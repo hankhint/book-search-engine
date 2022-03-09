@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/hankhint/book-search-engine/issues"
   },
-  "homepage": "https://github.com/hankhint/book-search-engine#readme"
+  "homepage": "https://github.com/hankhint/book-search-engine#readme",
+  "dependencies": {
+    "@apollo/react-hooks": "^4.0.0"
+  }
 }
