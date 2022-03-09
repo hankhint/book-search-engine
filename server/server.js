@@ -9,12 +9,14 @@ const db = require('./config/connection');
 //disabled routes
 //const routes = require('./routes');
 
+//import typedefs and resolvers
+const { typeDefs, resolvers } = require("./schemas")
+
 //keep app and PORT as-is
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-//import typedefs and resolvers
-const { typeDefs, resolvers } = require("./schemas")
+
 
 //create Apollo server
 //Apollo server gets our schema data
